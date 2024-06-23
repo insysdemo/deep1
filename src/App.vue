@@ -27,11 +27,7 @@
                         <!-- menu btn -->
                         <div class="col-6">
                             <div class="bostami-header-menu-btn text-right">
-                                <div class="dark-btn dark-btn-stored dark-btn-icon">
-                                    <i class="fa-light fa-moon"></i>
-                                    <i class="fa-light fa-sun"></i>
-                                </div>
-                                <div class="menu-btn toggle_menu">
+                                <div class="menu-btn toggle_menu" @click="toggleMobileMenu">
                                     <span></span>
                                     <span></span>
                                     <span></span>
@@ -43,8 +39,58 @@
                 </div>
 
                 <!-- mobile menu -->
-                <div class="mobile-menu-wrap">
-                    <div class="mobile-menu mobile_menu">
+                <div class="mobile-menu-wrap" v-if="isMobileMenuOpen">
+                    <div class="mobile-menu mobile_menu mean-container active">
+                        <div class="mean-bar">
+                            <a href="#nav" class="meanmenu-reveal" @click="toggleMobileMenu">
+                                <span><span><span></span></span></span>
+                            </a>
+                            <nav class="mean-nav">
+                                <ul>
+                                    <li class="active">
+                                        <router-link to="/about" custom v-slot="{ navigate }">
+                                            <a @click="navigate(); toggleMobileMenu()">
+                                                <span>
+                                                    <i class="fa-light fa-address-card"></i>
+                                                </span>
+                                                About
+                                            </a>
+                                        </router-link>
+                                    </li>
+                                    <li>
+                                        <router-link to="/resume" custom v-slot="{ navigate }">
+                                            <a @click="navigate(); toggleMobileMenu()">
+                                                <span>
+                                                    <i class="fa-light fa-file-user"></i>
+                                                </span>
+                                                Resume
+                                            </a>
+                                        </router-link>
+                                    </li>
+                                    <li>
+                                        <router-link to="/works" custom v-slot="{ navigate }">
+                                            <a @click="navigate(); toggleMobileMenu()">
+                                                <span>
+                                                    <i class="fa-light fa-briefcase"></i>
+                                                </span>
+                                                Works
+                                            </a>
+                                        </router-link>
+                                    </li>
+
+                                    <li class="mean-last">
+                                        <router-link to="/contact" custom v-slot="{ navigate }">
+                                            <a @click="navigate(); toggleMobileMenu()">
+                                                <span>
+                                                    <i class="fa-light fa-address-book"></i>
+                                                </span>
+                                                Contact
+                                            </a>
+                                        </router-link>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
 
@@ -76,8 +122,17 @@ export default {
     components: {
         PersonalInfo,
         MainMenu,
-    }
-
+    },
+    data() {
+        return {
+            isMobileMenuOpen: false,
+        };
+    },
+    methods: {
+        toggleMobileMenu() {
+            this.isMobileMenuOpen = !this.isMobileMenuOpen;
+        },
+    },
 };
 </script>
 
