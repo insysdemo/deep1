@@ -13,7 +13,7 @@
                         <div class="section-wrapper pr-60 pl-60 mb-60">
                             <div class="contact-area bg-light-white-2">
                                 <h5 class="contact-title">I'm always open to discussing produuct</h5>
-                                <h5 class="contact-title-b">design work or partnerships.</h5>
+                                <!-- <h5 class="contact-title-b">design work or partnerships.</h5> -->
                                 <form class="contact-form" action="https://formspree.io/f/xoqrgaab" method="post">
                                     <div class="form-input-item mb-60">
                                         <label class="input-lebel name">name *</label>

@@ -1,147 +1,81 @@
 <template>
 <!-- resume-page-start -->
-                <div class="col-xxl-8 col-xl-9">
-                    <div class="bostami-page-content-wrap">
+<div class="col-xxl-8 col-xl-9">
+    <div class="bostami-page-content-wrap">
 
-                        <!-- page title -->
-                        <div class="section-wrapper pl-60 pr-60 pt-60">
-                            <div class="bostami-page-title-wrap mb-15">
-                                <h2 class="page-title">Portfolio</h2>
-                            </div>
+        <!-- page title -->
+        <div class="section-wrapper pl-60 pr-60 pt-60">
+            <div class="bostami-page-title-wrap mb-15">
+                <h2 class="page-title">Portfolio</h2>
+            </div>
+        </div>
+
+        <div class="section-wrapper pr-60 pl-60 mb-60">
+            <div class="row">
+                <!-- New project item with image and link -->
+                <div class="col-xxl-6 col-xl-6 col-lg-6">
+                    <div class="bostami-what-do-item bg-catkrill">
+                        <!-- <div class="icon">
+                            <img src="project-image.jpg" alt="Project Image">
+                        </div> -->
+                        <div class="text">
+                            <h4 class="title">Edulab</h4>
+                            <p>in this application there is admin pannel of education system.</p>
+                            <!-- Link -->
+                            <a href="https://edulab.com/">Visit Project</a>
                         </div>
-
-
-                        <div class="section-wrapper pr-60 pl-60 mb-60">
-                            <div class="row">
-
-                                <div class="col-12">
-                                    <ul class="fillter-btn-wrap buttonGroup isotop-menu-wrapper mb-30">
-                                        <li class="fillter-btn is-checked " data-filter="*">All</li>
-                                        <li class="fillter-btn" data-filter=".mockup">Mockup</li>
-                                        <li class="fillter-btn" data-filter=".design"> Graphic Design</li>
-                                        <li class="fillter-btn" data-filter=".logo"> logo</li>
-                                    </ul>
-                                </div>
-
-                                <div class="col-12">
-                                    <div id="fillter-item-active" class="fillter-item-wrap">
-                                        <div class="grid-sizer"></div>
-
-                                        <!-- signle item -->
-                                        <div class=" isotop-item  logo">
-                                            <div class="fillter-item bg-prink">
-                                                <a class="img" href="#" data-bs-toggle="modal"
-                                                    data-bs-target="#portfolio-1">
-                                                    <img src="assets/img/work/work-img-1.png" alt="">
-                                                </a>
-                                                <span class="item-subtitle">Travel Landing , UX/UI </span>
-                                                <h6 class="item-title">
-                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#portfolio-1">Chul
-                                                        urina</a>
-                                                </h6>
-                                            </div>
-                                        </div>
-
-                                        <!-- signle item -->
-                                        <div class=" isotop-item design mockup">
-                                            <div class="fillter-item bg-catkrill">
-                                                <a class="img" href="#" data-bs-toggle="modal"
-                                                    data-bs-target="#portfolio-1">
-                                                    <img src="assets/img/work/work-img-2.png" alt="">
-                                                </a>
-                                                <span class="item-subtitle">Travel Landing , UX/UI </span>
-                                                <h6 class="item-title">
-                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#portfolio-1">Aura
-                                                        Dione</a>
-                                                </h6>
-                                            </div>
-                                        </div>
-
-                                        <!-- signle item -->
-                                        <div class=" isotop-item logo mockup">
-                                            <div class="fillter-item bg-catkrill ">
-                                                <a class="img" href="#" data-bs-toggle="modal"
-                                                    data-bs-target="#portfolio-1">
-                                                    <img src="assets/img/work/work-img-3.png" alt="">
-                                                </a>
-                                                <span class="item-subtitle">Travel Landing , UX/UI </span>
-                                                <h6 class="item-title">
-                                                    <a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#portfolio-1">T-Shirt Design</a>
-                                                </h6>
-                                            </div>
-                                        </div>
-
-                                        <!-- signle item -->
-                                        <div class=" isotop-item mockup">
-                                            <div class="fillter-item bg-prink">
-                                                <a class="img" href="#" data-bs-toggle="modal"
-                                                    data-bs-target="#portfolio-1">
-                                                    <img src="assets/img/work/work-img-4.png" alt="">
-                                                </a>
-                                                <span class="item-subtitle">Travel Landing , UX/UI </span>
-                                                <h6 class="item-title">
-                                                    <a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#portfolio-1">Packaging Box</a>
-                                                </h6>
-                                            </div>
-                                        </div>
-
-                                        <!-- signle item -->
-                                        <div class="isotop-item design logo">
-                                            <div class="fillter-item bg-prink">
-                                                <a class="img" href="#" data-bs-toggle="modal"
-                                                    data-bs-target="#portfolio-1">
-                                                    <img src="assets/img/work/work-img-5.png" alt="">
-                                                </a>
-                                                <span class="item-subtitle">Travel Landing , UX/UI </span>
-                                                <h6 class="item-title">
-                                                    <a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#portfolio-1">Modern Bag Design</a>
-                                                </h6>
-                                            </div>
-                                        </div>
-
-                                        <!-- signle item -->
-                                        <div class="isotop-item mockup design">
-                                            <div class="fillter-item bg-catkrill">
-                                                <a class="img" href="#" data-bs-toggle="modal"
-                                                    data-bs-target="#portfolio-1">
-                                                    <img src="assets/img/work/work-img-6.png" alt="">
-                                                </a>
-                                                <span class="item-subtitle">Travel Landing , UX/UI </span>
-                                                <h6 class="item-title">
-                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#portfolio-1">Chul
-                                                        urina</a>
-                                                </h6>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <!-- footer copyright -->
-                        <div class="footer-copyright text-center bg-light-white-2 pt-25 pb-25">
-                            <!-- <span>© 2024 All Rights Reserved by <a href="https://themeforest.net/user/elite-themes24"
-                                    target="_blank" rel="noopener noreferrer">elite-themes24</a>.</span> -->
-                        </div>
-
                     </div>
                 </div>
-                <!-- resume-page-end -->
+
+                <!-- New project item with image and link -->
+                <div class="col-xxl-6 col-xl-6 col-lg-6">
+                    <div class="bostami-what-do-item bg-prink ">
+                        <!-- <div class="icon">
+                            <img src="project-image.jpg" alt="Project Image">
+                        </div> -->
+                        <div class="text">
+                            <h4 class="title">Customer Consumer Application</h4>
+                            <p>in this application there is product retails flow where customer can buy and sell products.</p>
+                            <!-- Link -->
+                            <a href="https://example.com">Visit Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-xxl-6 col-xl-6 col-lg-6">
+                    <div class="bostami-what-do-item bg-prink">
+                        <!-- <div class="icon">
+                            <img src="project-image.jpg" alt="Project Image">
+                        </div> -->
+                        <div class="text">
+                            <h4 class="title">Crypto based </h4>
+                            <p>in this project the product purchased flow is based on crypto currencies and redeem functionality is also.</p>
+                            <!-- Link -->
+                            <a href="https://allclonescript.com/">Visit Project</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- footer copyright -->
+        <div class="footer-copyright text-center bg-light-white-2 pt-25 pb-25">
+            <!-- <span>© 2024 All Rights Reserved by <a href="https://themeforest.net/user/elite-themes24"
+                                    target="_blank" rel="noopener noreferrer">elite-themes24</a>.</span> -->
+        </div>
+
+    </div>
+</div>
+<!-- resume-page-end -->
 </template>
 
 <script>
 export default {
-//   name: 'PortfolioSection'
-
+    // name: 'PortfolioSection'
 };
 </script>
 
 <style scoped>
-
+/* Any scoped styles can go here */
 </style>

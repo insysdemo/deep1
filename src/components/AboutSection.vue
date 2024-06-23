@@ -6,11 +6,9 @@
         <div class="section-wrapper pl-60 pr-60 pt-60">
             <div class="bostami-page-title-wrap mb-35">
                 <h2 class="page-title">about</h2>
-                <p>I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web
-                    development and print media. I enjoy turning complex problems into simple, beautiful
-                    and intuitive designs.</p>
-                <p>My aim is to bring across your message and identity in the most creative way. I
-                    created web design for many famous brand companies.</p>
+                <p>To use my skills and experience in best way to
+                    achieving the goals of company and solve problems in
+                    creative manners.</p>
             </div>
         </div>
 
@@ -25,65 +23,69 @@
                 <div class="row">
 
                     <!-- single item -->
-                    <div class="col-xxl-6 col-xl-6 col-lg-6">
-                        <div class="bostami-what-do-item bg-prink">
-                            <div class="icon">
-                                <i class="fa-light fa-swatchbook"></i>
-                            </div>
-                            <div class="text">
-                                <h4 class="title">Ui/Ux Design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    euismod tincidunt volutpat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single item -->
-                    <div class="col-xxl-6 col-xl-6 col-lg-6">
-                        <div class="bostami-what-do-item bg-catkrill">
-                            <div class="icon">
-                                <i class="fa-regular fa-grid-2"></i>
-                            </div>
-                            <div class="text">
-                                <h4 class="title">App Development</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    euismod tincidunt volutpat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single item -->
+                   
                     <div class="col-xxl-6 col-xl-6 col-lg-6">
                         <div class="bostami-what-do-item  bg-catkrill">
                             <div class="icon">
-                                <i class="fa-regular fa-camera-retro"></i>
-                            </div>
-                            <div class="text">
-                                <h4 class="title">Photography</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    euismod tincidunt volutpat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single item -->
-                    <div class="col-xxl-6 col-xl-6 col-lg-6">
-                        <div class="bostami-what-do-item bg-prink bg-blue">
-                            <div class="icon">
-                                <i class="fa-regular fa-code"></i>
+                                <!-- <i class="fa-regular fa-camera-retro"></i> -->
+                                 <i class="fa-solid fa-globe"></i>
                             </div>
                             <div class="text">
                                 <h4 class="title">Web Development</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    euismod tincidunt volutpat.</p>
+                                <ul>
+                                    <li>Backend Development with PHP Laravel</li>
+                                    <li>RESTful API Development</li>
+                                    <li>Database Management using Laravel's Eloquent ORM</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
+                    <!-- RESTful API Development Card -->
+                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                        <div class="bostami-what-do-item bg-prink bg-catkrill">
+                            <div class="icon">
+                                 <i class="fa-solid fa-code"></i>
+                                <!-- <i class="fa-regular fa-code"></i> -->
+                            </div>
+                            <div class="text">
+                                <h4 class="title">RESTful API Development</h4>
+                                <p>Skilled in creating RESTful APIs using PHP Laravel framework. Proficient in designing API endpoints, authentication mechanisms, and ensuring scalability and security.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Backend Development with PHP Laravel Card -->
+                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                        <div class="bostami-what-do-item bg-prink bg-catkrill">
+                            <div class="icon">
+                                <!-- <i class="fa-regular fa-code"></i> -->
+                                 <i class="fa-solid fa-server"></i>
+                            </div>
+                            <div class="text">
+                                <h4 class="title">Backend Development with PHP Laravel</h4>
+                                <p>Proficient in backend development using PHP Laravel framework. Experienced in designing and implementing robust server-side logic, database interactions, and RESTful APIs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Database Management using Laravel's Eloquent ORM Card -->
+                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                        <div class="bostami-what-do-item  bg-catkrill">
+                            <div class="icon">
+                               <i class="fa-solid fa-database"></i>
+                            </div>
+                            <div class="text">
+                                <h4 class="title">Database Management using Laravel's Eloquent ORM</h4>
+                                <p>Experienced in database management with Laravel's Eloquent ORM. Proficient in database schema design, migrations, querying using Laravel's fluent query builder, and optimizing database performance.</p>
 
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
         </div>
 
         <!-- client -->
-        <div class="section-wrapper bg-light-white-2 pt-45 pb-60 pl-60 pr-60">
+        <!-- <div class="section-wrapper bg-light-white-2 pt-45 pb-60 pl-60 pr-60">
 
             <div class="bostami-section-title-wrap text-center mb-50">
                 <h3 class="section-title">clinet</h3>
@@ -93,22 +95,18 @@
                 <div class="swiper-container client_slide_active">
                     <div class="swiper-wrapper">
 
-                        <!-- single item -->
                         <div class="swiper-slide">
                             <img class="bostami-client-slider-logo" src="assets/img/client/client-logo-1.png" alt="">
                         </div>
 
-                        <!-- single item -->
                         <div class="swiper-slide">
                             <img class="bostami-client-slider-logo" src="assets/img/client/client-logo-2.png" alt="">
                         </div>
 
-                        <!-- single item -->
                         <div class="swiper-slide">
                             <img class="bostami-client-slider-logo" src="assets/img/client/client-logo-3.png" alt="">
                         </div>
 
-                        <!-- single item -->
                         <div class="swiper-slide">
                             <img class="bostami-client-slider-logo" src="assets/img/client/client-logo-4.png" alt="">
                         </div>
@@ -117,7 +115,7 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
 
         <!-- footer copyright -->
         <div class="footer-copyright text-center pt-25 pb-25">
@@ -130,7 +128,7 @@
 
 <script>
 export default {
-//   name: 'AboutSection'
+    //   name: 'AboutSection'
 };
 </script>
 

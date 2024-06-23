@@ -11,9 +11,9 @@
 
             <!-- name -->
             <h4 class="bostami-parsonal-info-name">
-                <a href="#">Ketan Kavad</a>
+                <a href="#">Deep Detroja</a>
             </h4>
-            <span class="bostami-parsonal-info-bio mb-15">Web Developer</span>
+            <span class="bostami-parsonal-info-bio mb-15">Web Developer/PHP Developer</span>
 
             <!-- socail link -->
             <ul class="bostami-parsonal-info-social-link mb-30">
@@ -47,7 +47,7 @@
                     </div>
                     <div class="text">
                         <span>Phone</span>
-                        <p>+91 8141334775</p>
+                        <p>+91 8460436383</p>
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@
                     </div>
                     <div class="text">
                         <span>Email</span>
-                        <p>ketankavad900@gmail.com</p>
+                        <p>deepdetroja532@gmail.com</p>
                     </div>
                 </div>
 
@@ -77,7 +77,8 @@
                     </div>
                     <div class="text">
                         <span>Birthday</span>
-                        <p>Apr 17, 1999</p>
+                        <!-- <p>November 11th,1997</p> -->
+                        <p>Nov 11th , 1997</p>
                     </div>
                 </div>
             </div>

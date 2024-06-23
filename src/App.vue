@@ -17,10 +17,10 @@
                         <!-- logo -->
                         <div class="col-6">
                             <div class="bostami-header-logo">
-                                <a class="site-logo" href="https://bostami-bootstrap.ibthemespro.com/index.html">
-                                    <img :src="require('@/assets/img/logo/logo-2.png')" alt="">
-
-                                </a>
+                                <!-- <a class="site-logo" href="https://bostami-bootstrap.ibthemespro.com/index.html"> -->
+                                    <!-- <img :src="require('@/assets/img/logo/logo-2.png')" alt=""> -->
+                                     <!-- <h1 style="color: #007bff;">Deep</h1> -->
+                                <!-- </a> -->
                             </div>
                         </div>
 
@@ -47,7 +47,7 @@
                             </a>
                             <nav class="mean-nav">
                                 <ul>
-                                    <li class="active">
+                                    <li :class="{ 'active': $route.path === '/about' }">
                                         <router-link to="/about" custom v-slot="{ navigate }">
                                             <a @click="navigate(); toggleMobileMenu()">
                                                 <span>
@@ -57,7 +57,7 @@
                                             </a>
                                         </router-link>
                                     </li>
-                                    <li>
+                                    <li :class="{ 'active': $route.path === '/resume' }">
                                         <router-link to="/resume" custom v-slot="{ navigate }">
                                             <a @click="navigate(); toggleMobileMenu()">
                                                 <span>
@@ -67,7 +67,7 @@
                                             </a>
                                         </router-link>
                                     </li>
-                                    <li>
+                                    <li :class="{ 'active': $route.path === '/works' }">
                                         <router-link to="/works" custom v-slot="{ navigate }">
                                             <a @click="navigate(); toggleMobileMenu()">
                                                 <span>
@@ -77,8 +77,7 @@
                                             </a>
                                         </router-link>
                                     </li>
-
-                                    <li class="mean-last">
+                                    <li :class="{ 'active': $route.path === '/contact' }" class="mean-last">
                                         <router-link to="/contact" custom v-slot="{ navigate }">
                                             <a @click="navigate(); toggleMobileMenu()">
                                                 <span>
@@ -93,7 +92,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
         <!-- header-end -->
@@ -145,4 +143,13 @@ export default {
 @import url('assets/css/meanmenu.css');
 @import url('assets/css/swipper.css');
 @import url('assets/css/main.css');
+</style>
+<style scoped>
+.mean-nav .active a {
+    color: #ffffff;
+}
+
+.mean-nav .active .fa-light {
+    color: #ffffff;
+}
 </style>
