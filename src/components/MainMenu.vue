@@ -3,8 +3,8 @@
     <div class="bostami-main-menu-wrap">
         <nav class="bastami-main-menu main_menu">
             <ul>
-                <li :class="{ 'active-li': $route.path === '/about' }">
-                    <router-link to="/about" active-class="active-link">
+                <li :class="{ 'active-li': $route.path === '/' }">
+                    <router-link to="/" active-class="active-link">
                         <span>
                             <i class="fa-light fa-address-card"></i>
                         </span>

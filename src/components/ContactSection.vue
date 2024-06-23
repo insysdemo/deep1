@@ -13,7 +13,7 @@
                         <div class="section-wrapper pr-60 pl-60 mb-60">
                             <div class="contact-area bg-light-white-2">
                                 <h5 class="contact-title">I'm always open to discussing produuct</h5>
-                                <!-- <h5 class="contact-title-b">design work or partnerships.</h5> -->
+                                <h5 class="contact-title-b"> </h5>
                                 <form class="contact-form" action="https://formspree.io/f/xoqrgaab" method="post">
                                     <div class="form-input-item mb-60">
                                         <label class="input-lebel name">name *</label>
@@ -37,8 +37,7 @@
 
                         <!-- footer copyright -->
                         <div class="footer-copyright text-center bg-light-white-2 pt-25 pb-25">
-                            <!-- <span>© 2024 All Rights Reserved by <a href="https://themeforest.net/user/elite-themes24"
-                                    target="_blank" rel="noopener noreferrer">elite-themes24</a>.</span> -->
+                          
                         </div>
 
                     </div>
@@ -54,5 +53,16 @@ export default {
 </script>
 
 <style scoped>
-
+.contact-form .input-box {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #b5b5b5;
+    background: transparent;
+    height: 38px;
+    transition: 0.3s;
+    transform-origin: top;
+    font-size: 14px;
+}
 </style>

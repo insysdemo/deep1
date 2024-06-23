@@ -5,8 +5,7 @@
 
             <!-- img -->
             <div class="bostami-parsonal-info-img">
-                <!-- <img src="assets/img/parsonal-info/parson-img-1.png" alt="avatar"> -->
-                <img :src="require('@/assets/img/parsonal-info/parson-img-1.png')" alt="avatar">
+                <img :src="require('@/assets/img/parsonal-info/deep-img-1.png')" alt="avatar">
             </div>
 
             <!-- name -->
@@ -33,9 +32,15 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="linkedin">
+                    <!-- <a href="https://www.linkedin.com/in/deep-detroja-b48600171?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a> -->
+               
+                    <a href="https://www.linkedin.com/in/deep-detroja-b48600171?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin" target="_blank">
                         <i class="fa-brands fa-linkedin-in"></i>
                     </a>
+             
+
                 </li>
             </ul>
 
